@@ -66,6 +66,7 @@ const config = {
   hyperswapv2: { chain: 'hyperliquid', factory: '0x724412C00059bf7d6ee7d4a1d0D5cd4de3ea1C48' },
   etherex: { chain: "linea", factory: "0xC0b920f6f1d6122B8187c031554dc8194F644592", hasStablePools: true, getReservesAbi: uint256GetReservesAbi, },
   pulsex2: { chain: 'pulse', factory: '0x29eA7545DEf87022BAdc76323F373EA1e707C523' },
+  zealousswap_igra: { chain: 'igra', factory: '0x98Bb580A77eE329796a79aBd05c6D2F2b3D5E1bD' },
 };
 
 export function extraUniV2Lps(timestamp: number = 0) {
